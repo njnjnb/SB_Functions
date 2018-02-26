@@ -1,3 +1,3 @@
 object smallGeoCircle{
-	def circle100m(l: LatLong) : GeoCircle = GeoCircle(l,0.1)
+	def circle300m(l: LatLong) : GeoCircle = GeoCircle(l,0.3)
 }
