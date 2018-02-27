@@ -1,3 +1,5 @@
-object smallGeoCircle{
-	def circle300m(l: LatLong) : GeoCircle = GeoCircle(l,0.3)
-}
+  import com.sparkbeyond.runtime.feature.types.GeoCircle
+  import com.sparkbeyond.runtime.feature.types.LatLong
+  object ZeroComplexityMyFunctions {
+    def circle300m(l: LatLong) : GeoCircle = GeoCircle(l,0.3)
+  }
